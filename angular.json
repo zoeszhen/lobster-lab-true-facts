@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-true-facts"
+    }
+  },
+  "defaultProject": "ng-true-facts",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #c6e0f8;
+    font-family: sans-serif;
+}
+
+ul{
+    margin: 0 auto;
+}
+
+li{
+    padding: 20px 0; 
+}
