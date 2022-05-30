@@ -6,7 +6,10 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, HttpClientModule],
+  imports: [
+    BrowserModule.withServerTransition({ appId: 'lobster-lab-true-facts' }),
+    HttpClientModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
