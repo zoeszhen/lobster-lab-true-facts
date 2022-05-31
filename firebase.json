@@ -1,11 +1,11 @@
 {
   "hosting": {
-    "public": "dist/ng-true-facts",
+    "public": "functions",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",
-        "function": "ssrapp"
+        "function": "ngssr"
       }
     ]
   },
